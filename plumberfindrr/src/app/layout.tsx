@@ -16,11 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
       <body className={inter.className}>
-        {children}
-<script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
-      </body>
+        {children}</body>
     </html>
   );
 }
